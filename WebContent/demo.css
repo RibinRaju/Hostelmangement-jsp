@@ -1,0 +1,142 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/living-room-modern-furniture_176382-939.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content h1 {
+    font-size: 42px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 36px;
+    color:grey;
+    margin-bottom: 20px;
+}
+
+.content p{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(58, 57, 57, 0.767);
+    font-size: 23px;
+    color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+.booknow {
+    display: flex;
+   justify-content: center;
+    text-align: left;
+    background-color: rgba(58, 57, 57, 0.767);
+    font-size: 26px;
+    max-width: 600px;
+    margin: 20px auto; /* Add margin for spacing */
+    padding: 30px; /* Add padding for spacing */
+    border-radius: 30px; /* Add border radius for rounded corners */
+    color: #fff; /* Add text color */
+}
+#link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Form container styles */
+.form-container {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container select {
+    width: calc(100% - 40px);
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.form-container input[type="submit"] {
+    width: calc(100% - 40px);
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #A52A2A;
+}
